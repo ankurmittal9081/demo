@@ -8,6 +8,11 @@ public class controller {
     @GetMapping("/")
     public  String hello(){
         return  "hello ankur mittal";
+
+    }
+    @GetMapping("/world")
+    public String hello1(){
+        return "Hello world";
     }
 
 }
